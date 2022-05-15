@@ -1,0 +1,27 @@
+.card {
+  padding: 3rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+
+   background: linear-gradient(
+    315deg,
+    rgba(23, 13, 179, .3) 6%,
+    rgba(28, 121, 242, .3) 14%,
+    rgba(10, 181, 240, .3) 20%,
+    rgba(57, 178, 214, .3) 28%,
+    rgba(31, 239, 247, .3) 34%,
+    rgba(121, 174, 179, .3) 49%,
+    rgba(47, 91, 211, 0.3) 57%,
+    rgba(104, 134, 232, 0.3) 62%,
+    rgba(130, 8, 130, 0.3) 68%,
+    rgba(255, 87, 26, .3) 74%,
+    rgba(182, 9, 9, 0.3) 83%,
+    rgba(220, 16, 16, 0.3) 96%
+  );
+
+}
+@media only screen and (max-width: 543px) {
+    .card {
+      margin: 0;
+      padding:0
+    }
+  }
